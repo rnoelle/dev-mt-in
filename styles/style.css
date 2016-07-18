@@ -1,0 +1,33 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.devTitle {
+  font-size: 16.8px;
+  color: #272727;
+  line-height: 21px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer-nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 55px 25px 55px;
+}
+
+a {
+  text-decoration: none;
+  color: #272727;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 13.2px;
+  line-height: 18px;
+  color: #A9A9A9;
+}
