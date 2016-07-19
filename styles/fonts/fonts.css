@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 
-h1, h2, h3, h4, h5, h6, a {
+h1, h2, h3, h4, h5, h6, a, input, textarea {
   font-family: 'Lora', 'Georgia', serif;
 }

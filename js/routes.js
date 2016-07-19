@@ -9,24 +9,26 @@ angular.module('devSocial')
       })
       .state('landing', {
         url: '/landing',
-        templateUrl: './js/views/home/landingTmpl.html',
+        templateUrl: './js/views/landing/landingTmpl.html',
         controller: 'landingCtrl'
       })
       .state('view', {
         url: '/view',
-        templateUrl: './js/views/home/viewTmpl.html',
+        templateUrl: './js/views/friends/viewTmpl.html',
         controller: 'friendCtrl'
       })
       .state('find', {
         url: '/find',
         parent: 'friends',
-        templateUrl: './js/views/home/findTmpl.html',
+        templateUrl: './js/views/friends/findTmpl.html',
         controller: 'friendCtrl'
       })
       .state('update', {
         url: '/update',
         parent: 'friends',
-        templateUrl: './js/views/home/updateTmpl.html',
+        templateUrl: './js/views/update/updateTmpl.html',
         controller: 'updateCtrl'
       });
+
+      $urlRouterProvider.otherwise('/');
   });

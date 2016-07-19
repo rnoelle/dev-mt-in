@@ -1,0 +1,50 @@
+.main-page {
+  width: 100%;
+}
+.form-section {
+  float: left;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+.enter-profile {
+  margin: auto;
+}
+.form-section-intro {
+   font-size: 1.15em;
+   line-height: 1.25em;
+   margin-bottom: 20px;
+   color: #272727;
+}
+.form-section em {
+  color: #00FFE9;
+}
+.form-section input {
+  height: 2em;
+  width: 60%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+.form-section textarea {
+  width: 60.5%;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  padding: 10px 5px 10px 5px;
+}
+.form-section .form-submit {
+  width: 61%;
+  border: none;
+  background: #74FDF2;
+  color: #979797;
+  cursor: pointer;
+  padding: 10px;
+  height: 2.5em;
+}
+.profile-pic-section {
+  float: right;
+  width: 50%;
+  padding: 5vw;
+}

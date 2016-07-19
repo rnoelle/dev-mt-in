@@ -8,36 +8,39 @@
 	<link rel="stylesheet" href="./styles/reset.css">
 	<link rel="stylesheet" href="./styles/fonts/fonts.css">
 	<link rel="stylesheet" href="./styles/style.css">
-	<title>DevMtin</title>
+			<!-- View Styles -->
+	<link rel="stylesheet" href="./styles/views/home.css">
+	<link rel="stylesheet" href="./styles/views/friends.css">
+	<link rel="stylesheet" href="./styles/views/landing.css">
+	<link rel="stylesheet" href="./styles/views/update.css">
+
+	<title>DevSocial</title>
 </head>
 
 <body>
-	<header>
-		<div class="nav">
-			<img src="./images/Icons/Search.svg" alt="search" />
-			<h2 class="devTitle">DevMountain</h2>
-			<img src="./images/Icons/Ham.svg" alt="Menu" />
-		</div>
-		<hr>
-	</header>
-<section class="main-page">
+
 
 	<ui-view></ui-view>
 
-</section>
 <footer>
 	<hr>
 	<nav class="footer-nav">
 		<ul>
-			<li><a href="#">View Friends</a></li>
-			<li><a href="#">Find Friends</a></li>
-			<li><a href="#">Update Profile</a></li>
+			<li><a ui-sref="">View Friends</a></li>
+			<li><a ui-sref="">Find Friends</a></li>
+			<li><a ui-sref="">Update Profile</a></li>
 		</ul>
 	</nav>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
 <script src='./js/apps.js'></script>
+<script src='./js/routes.js'></script>
+<script src='./js/views/friends/friendsCtrl.js'></script>
+<script src='./js/views/home/homeCtrl.js'></script>
+<script src='./js/views/landing/landingCtrl.js'></script>
+<script src='./js/views/update/updateCtrl.js'></script>
 
 </body>
 </html>

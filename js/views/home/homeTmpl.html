@@ -1,0 +1,29 @@
+
+<header>
+  <div class="nav">
+    <img src="./images/Icons/Search.svg" alt="search" />
+    <h2 class="devTitle">DevMountain</h2>
+    <img src="./images/Icons/Ham.svg" alt="Menu" />
+  </div>
+  <hr>
+</header>
+<section class="main-page">
+
+  <section class="form-section">
+    <form class="enter-profile" ng-submit="saveProfileForm()">
+      <div class="form-section-intro">
+        <h3>Welcome to <em>DevMountain</em> Social</h3>
+        <h3>Add some info so friends can find you</h3>
+      </div>
+      <input type="text" ng-model="fullName" placeholder="Full Name" required>
+      <input type="text" ng-model="tagline" placeholder="Tagline" required>
+      <input type="text" ng-model="imageUrl" placeholder="Profile Image URL" required>
+      <textarea ng-model="bio" rows="8" cols="40" placeholder="Bio"></textarea>
+      <input class="form-submit" type="submit" name="name" value="Save Changes">
+    </form>
+  </section>
+
+  <section class="profile-pic-section">
+    <img src="" alt="" />
+  </section>
+</section>

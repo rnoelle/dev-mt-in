@@ -1,1 +1,1 @@
-angular.module('devSocial', []);
+angular.module('devSocial', ['ui.router']);
